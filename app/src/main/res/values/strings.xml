@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dialect-Dash</string>
+    <string name="Play_Label">Play</string>
+    <string name="Instruction_Button">Instructions</string>
+    <string name="Back_to_Menu">Menu</string>
+    <string name="Time_left">Time</string>
+    <string name="Score">Score</string>
+    <string name="Score_number">Points</string>
+    <string name="Dailect">Dialect</string>
+    <string name="Dailect_Word">Word</string>
+    <string name="Meaning">Meaning</string>
+    <string name="Meaning_Word">Definition</string>
+    <string name="No_Button">No</string>
+    <string name="Yes_Button">Yes</string>
+</resources>
