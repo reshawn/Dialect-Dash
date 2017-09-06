@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dailect-Dash.iml" filepath="$PROJECT_DIR$/Dailect-Dash.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialect-dash.iml" filepath="$PROJECT_DIR$/dialect-dash.iml" />
     </modules>
   </component>
 </project>

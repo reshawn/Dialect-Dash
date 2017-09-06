@@ -11,50 +11,58 @@
     <TextView
         android:id="@+id/Back_to_Menu"
         android:layout_width="100dp"
-        android:layout_height="15dp"
-        android:text="@string/Back_to_Menu"
-        tools:layout_editor_absoluteY="6dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Back_to_Menu"
+        app:layout_constraintBottom_toTopOf="@+id/Time_left"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.029" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Time_left"
-        android:layout_width="100dp"
-        android:layout_height="15dp"
-        android:text="@string/Time_left"
-        tools:layout_editor_absoluteY="36dp"
-        app:layout_constraintRight_toLeftOf="@+id/Score_number"
-        android:layout_marginRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="514dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Time_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.052" />
+        app:layout_constraintRight_toLeftOf="@+id/Score_number" />
 
     <TextView
         android:id="@+id/Score"
         android:layout_width="100dp"
-        android:layout_height="15dp"
-        android:text="@string/Score"
-        tools:layout_editor_absoluteY="6dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Score"
+        app:layout_constraintBottom_toTopOf="@+id/Score_number"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.97" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Score_number"
         android:layout_width="100dp"
-        android:layout_height="15dp"
-        android:text="@string/Score_number"
-        tools:layout_editor_absoluteY="36dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="516dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Score_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.97" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/Dailect"
@@ -76,50 +84,70 @@
         android:layout_width="125dp"
         android:layout_height="20dp"
         android:text="@string/Dailect_Word"
-        tools:layout_editor_absoluteY="219dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="188dp"
+        app:layout_constraintHorizontal_bias="0.502" />
 
     <TextView
         android:id="@+id/Meaning"
         android:layout_width="125dp"
         android:layout_height="20dp"
         android:text="@string/Meaning"
-        tools:layout_editor_absoluteX="130dp"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/Dailect_Word"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/Meaning_Word"
-        app:layout_constraintVertical_bias="0.819" />
+        app:layout_constraintVertical_bias="0.827"
+        android:layout_marginLeft="130dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <TextView
         android:id="@+id/Meaning_Word"
         android:layout_width="125dp"
         android:layout_height="20dp"
         android:text="@string/Meaning_Word"
-        tools:layout_editor_absoluteY="336dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.502" />
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="245dp" />
 
     <Button
         android:id="@+id/No_Button"
         android:layout_width="120dp"
         android:layout_height="45dp"
         android:text="@string/No_Button"
-        tools:layout_editor_absoluteY="432dp"
-        tools:layout_editor_absoluteX="48dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.837"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.18" />
 
     <Button
         android:id="@+id/Yes_Button"
         android:layout_width="120dp"
         android:layout_height="45dp"
         android:text="@string/Yes_Button"
-        tools:layout_editor_absoluteY="432dp"
-        tools:layout_editor_absoluteX="219dp" />
+        android:layout_marginRight="52dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.837" />
 
 </android.support.constraint.ConstraintLayout>
