@@ -14,10 +14,17 @@ public class Welcome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         Button Playbutton=(Button) findViewById(R.id.Play_Button);
+        Button Instructions=(Button) findViewById(R.id.Instruction_Button);
         Playbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Welcome.this,Round.class));
+            }
+        });
+        Instructions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Welcome.this,Pop.class));
             }
         });
     }

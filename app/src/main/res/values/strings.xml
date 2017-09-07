@@ -12,4 +12,9 @@
     <string name="Meaning_Word">Definition</string>
     <string name="No_Button">No</string>
     <string name="Yes_Button">Yes</string>
+    <string name="Score_value">Score:</string>
+    <string name="Points">Points</string>
+    <string name="Play_Again_Button">Play Again</string>
+    <string name="Back_to_Menu_Button">Back to Menu</string>
+    <string name="Instructions_Pop">Instructions</string>
 </resources>
